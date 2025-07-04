@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/TheThing">D:/Qt/Project/TheThing/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/TheThing</file>
+
+  </qresource>
+</RCC>

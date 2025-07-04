@@ -1,0 +1,7 @@
+module TheThing
+typeinfo appTheThing.qmltypes
+prefer :/TheThing/
+Main 1.0 Main.qml
+ItemPopup 1.0 ItemPopup.qml
+Dpad 1.0 Dpad.qml
+

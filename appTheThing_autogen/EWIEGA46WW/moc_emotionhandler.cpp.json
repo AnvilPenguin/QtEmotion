@@ -1,0 +1,116 @@
+{
+    "classes": [
+        {
+            "className": "EmotionHandler",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "distance",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "setDistance",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "state",
+                            "type": "bool"
+                        }
+                    ],
+                    "name": "setIsManual",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 0,
+                    "name": "emotion",
+                    "notify": "emotionChanged",
+                    "read": "emotion",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 1,
+                    "name": "distance",
+                    "notify": "distanceChanged",
+                    "read": "distance",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setDistance"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "isManual",
+                    "notify": "isManualChanged",
+                    "read": "isManual",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false,
+                    "write": "setIsManual"
+                }
+            ],
+            "qualifiedClassName": "EmotionHandler",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "emotionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "distanceChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "isManualChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "onEmotionChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "onCommandAccepted",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "emotionhandler.h",
+    "outputRevision": 68
+}

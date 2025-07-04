@@ -1,0 +1,169 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-1bb72c2cb1e114fadd03.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TheThing",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Release-a6b36586a4008a470320.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Release-6bda1db6ded7a691a756.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Release-9960ff8c9d7324754387.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Release-f56e21f989ce5f984d3e.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTheThing::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTheThing-Release-bd78c811348049f2ee59.json",
+					"name" : "appTheThing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTheThing_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTheThing_autogen-Release-8fba5ac21c5aa2378865.json",
+					"name" : "appTheThing_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTheThing_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTheThing_autogen_timestamp_deps-Release-da9e574bc9e5eef91fa3.json",
+					"name" : "appTheThing_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTheThing_qmlimportscan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTheThing_qmlimportscan-Release-e4db20e7b911a7938f8c.json",
+					"name" : "appTheThing_qmlimportscan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTheThing_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTheThing_qmllint-Release-740421ef601fa5c8423c.json",
+					"name" : "appTheThing_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTheThing_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTheThing_qmllint_json-Release-59bb8a3ef59c9b94b205.json",
+					"name" : "appTheThing_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTheThing_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTheThing_qmllint_module-Release-3124eafdc5b2ce6c8b07.json",
+					"name" : "appTheThing_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTheThing_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTheThing_qmltyperegistration-Release-eeadd2aa5d3de7a8578a.json",
+					"name" : "appTheThing_qmltyperegistration",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "appTheThing_tooling::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-appTheThing_tooling-Release-6d92fb9f8feabc57469c.json",
+					"name" : "appTheThing_tooling",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/Qt/Project/TheThing/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release",
+		"source" : "D:/Qt/Project/TheThing"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,0 +1,22 @@
+<RCC>
+  <qresource prefix="/TheThing/">
+    <file alias="Main.qml">D:/Qt/Project/TheThing/Main.qml</file>
+    <file alias="ItemPopup.qml">D:/Qt/Project/TheThing/ItemPopup.qml</file>
+    <file alias="Dpad.qml">D:/Qt/Project/TheThing/Dpad.qml</file>
+    <file alias="assets/images/icon_settings.png">D:/Qt/Project/TheThing/assets/images/icon_settings.png</file>
+    <file alias="assets/images/neutral.png">D:/Qt/Project/TheThing/assets/images/neutral.png</file>
+    <file alias="assets/images/angry.png">D:/Qt/Project/TheThing/assets/images/angry.png</file>
+    <file alias="assets/images/happy1.png">D:/Qt/Project/TheThing/assets/images/happy1.png</file>
+    <file alias="assets/images/happy2.png">D:/Qt/Project/TheThing/assets/images/happy2.png</file>
+    <file alias="assets/images/surprise.png">D:/Qt/Project/TheThing/assets/images/surprise.png</file>
+    <file alias="assets/images/python.png">D:/Qt/Project/TheThing/assets/images/python.png</file>
+    <file alias="assets/images/opencv.png">D:/Qt/Project/TheThing/assets/images/opencv.png</file>
+    <file alias="assets/images/esp.png">D:/Qt/Project/TheThing/assets/images/esp.png</file>
+    <file alias="assets/images/left.png">D:/Qt/Project/TheThing/assets/images/left.png</file>
+    <file alias="assets/images/right.png">D:/Qt/Project/TheThing/assets/images/right.png</file>
+    <file alias="assets/images/up.png">D:/Qt/Project/TheThing/assets/images/up.png</file>
+    <file alias="assets/images/down.png">D:/Qt/Project/TheThing/assets/images/down.png</file>
+    <file alias="assets/images/center.png">D:/Qt/Project/TheThing/assets/images/center.png</file>
+  </qresource>
+</RCC>
+

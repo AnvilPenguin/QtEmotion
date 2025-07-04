@@ -1,0 +1,126 @@
+{
+    "classes": [
+        {
+            "className": "PySocket",
+            "methods": [
+                {
+                    "access": "public",
+                    "name": "socketConnect",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "socketDisconnect",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "serverStart",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 0,
+                    "name": "result",
+                    "notify": "resultChanged",
+                    "read": "result",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 1,
+                    "name": "image",
+                    "notify": "imageChanged",
+                    "read": "image",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QImage",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 2,
+                    "name": "isSocketConnected",
+                    "notify": "isSocketConnectedChanged",
+                    "read": "isSocketConnected",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": false,
+                    "index": 3,
+                    "name": "isPythonRunning",
+                    "notify": "isPythonRunningChanged",
+                    "read": "isPythonRunning",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "bool",
+                    "user": false
+                }
+            ],
+            "qualifiedClassName": "PySocket",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "resultChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "imageChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "isSocketConnectedChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "isPythonRunningChanged",
+                    "returnType": "void"
+                }
+            ],
+            "slots": [
+                {
+                    "access": "public",
+                    "name": "getResult",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "getImage",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "pysocket.h",
+    "outputRevision": 68
+}

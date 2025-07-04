@@ -1,0 +1,14 @@
+-rootPath
+D:/Qt/Project/TheThing
+-cmake-output
+-output-file
+D:/Qt/Project/TheThing/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/.qt_plugins/Qt6_QmlPlugins_Imports_appTheThing.cmake
+-importPath
+D:/Qt/Project/TheThing/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/TheThing
+-importPath
+D:/Qt/Project/TheThing/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release
+-importPath
+D:/Qt/6.5.3/msvc2019_64/./qml
+-qrcFiles
+D:/Qt/Project/TheThing/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/.rcc/qmake_TheThing.qrc
+D:/Qt/Project/TheThing/build/Desktop_Qt_6_5_3_MSVC2019_64bit-Release/.rcc/appTheThing_raw_qml_0.qrc

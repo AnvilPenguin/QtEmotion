@@ -1,0 +1,106 @@
+{
+    "classes": [
+        {
+            "className": "EspNetwork",
+            "methods": [
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "esp32Ip",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "setEsp32Ip",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "speed",
+                            "type": "int"
+                        }
+                    ],
+                    "name": "setSpeed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "sendSpeed",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "arguments": [
+                        {
+                            "name": "command",
+                            "type": "QString"
+                        }
+                    ],
+                    "name": "sendCommand",
+                    "returnType": "void"
+                }
+            ],
+            "object": true,
+            "properties": [
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 0,
+                    "name": "esp32Ip",
+                    "notify": "esp32IpChanged",
+                    "read": "esp32Ip",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "QString",
+                    "user": false,
+                    "write": "setEsp32Ip"
+                },
+                {
+                    "constant": false,
+                    "designable": true,
+                    "final": true,
+                    "index": 1,
+                    "name": "speed",
+                    "notify": "speedChanged",
+                    "read": "speed",
+                    "required": false,
+                    "scriptable": true,
+                    "stored": true,
+                    "type": "int",
+                    "user": false,
+                    "write": "setSpeed"
+                }
+            ],
+            "qualifiedClassName": "EspNetwork",
+            "signals": [
+                {
+                    "access": "public",
+                    "name": "esp32IpChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "speedChanged",
+                    "returnType": "void"
+                },
+                {
+                    "access": "public",
+                    "name": "commandAccepted",
+                    "returnType": "void"
+                }
+            ],
+            "superClasses": [
+                {
+                    "access": "public",
+                    "name": "QObject"
+                }
+            ]
+        }
+    ],
+    "inputFile": "espnetwork.h",
+    "outputRevision": 68
+}
